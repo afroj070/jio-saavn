@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 65px;
+    display: flex;
+    position: fixed;
+
+    background-color: white;
+    border: 1px solid whitesmoke;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.logo-container{
+    width: 20px;
+    height: 65px;
+    display: flex;
+}
+.logo{
+    width: 40px;
+    height: 35px;
+    margin-top: 13px;
+    margin: 10px;
+    border-radius: 50%;
+}
+.jiosavn{
+    font-size: 23px;
+    margin: 0px;
+    margin-top: 16px;
+    cursor: pointer;
+}
+.navbar{
+    display: grid;
+}
+.navbar>ul{
+    display: flex;
+    margin-left: 144px;
+    margin-top: 10px;
+    transition: none;
+    padding: 10px;
+    gap: 33px;
+}
+.navbar>ul>li{
+    list-style: none;
+    color: white;
+}
+.navbar>ul>li>a{
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+}
+.search{
+    width: 300px;
+    height: 65px;
+}
+.search>input{
+    width: 530px;
+    height: 45px;
+    margin-top: 8px;
+    text-align: center;
+    border-radius: 25px;
+    border: 1px solid rgb(219, 215, 215);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-left: 40px;
+}
+
+.navbarright{
+    width: 323px;
+    height: 65px;
+    margin-left: 310px;
+    display: flex;
+}
+.navbarright>ul{
+    display: flex;
+    margin-left: 12px;
+    gap: 40px;
+    margin-top: 18px;
+    text-decoration: none;
+}
+.navbarright>ul>li{
+    list-style: none;
+}
+.navbarright>ul>li>a{
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    color: black;
+}
+/* ========================sidebar======================== */
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    /* background-color: yellow; */
+}
+.menubar{
+    width: 18%;
+    height: 100%;
+    margin-top: 65px;
+    /* background-color: green; */
+
+}
+.sidebar{
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    /* margin-top: 65px; */
+    padding: 10px;
+    gap: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.sidebar-box{
+    padding: 10px;
+    gap: 10px;
+}
+.sidebar-box>h4{
+    gap: 10px;
+    margin-top: 20px;
+}
+/* =================== */
+.sidebar-boxitem{
+    padding: 10px;
+    margin-top: 15px;
+    gap: 10px;
+}
+.sidebar-boxitem>h4{
+    text-align: left;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* ==================container-box==================== */
+/* ===============menu======================== */
+
+.menu{
+    width: 80%;
+    height: 100%;
+    margin-top: 65px;
+    /* background-color: rgb(177, 42, 132); */
+}
+
+.pick-your-mood{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 7;
+    gap: 10px;
+}
+.pick-your-mood>div{
+    /* border: 1px solid red; */
+    border-radius: 5px;
+}
+.pick{
+    margin-top: 30px;
+    font-size: 23px;
+}
+.images{
+    width: 100%;
+    height: 140px;
+    border-radius: 5px;
+}
+.para{
+    text-align: center;
+    cursor: pointer;
+}
+/* ==============================menu end==================== */
+
+.section{
+    width: 100%;
+    height: 160px;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 7;
+    /* gap: 5px; */
+    /* border: 1px solid red; */
+
+}
+.section>div{
+    /* border: 1px solid red; */
+    margin: 5px;
+    border-radius: 5px;
+}
+.trending{
+    margin-top: 30px;
+    font-size: 25px;
+}
+.img1{
+    width: 100%;
+    height: 140px;
+    border-radius: 5px;
+}
+
+/* ======================= */
+
+.radio{
+    width: 100%;
+    height: 140px;
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 7;
+    gap: 10px;
+}
+.radio>div{
+    /* border: 1px solid red; */
+    border-radius: 50%;
+    
+}
+.radioh{
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.redioimg{
+    width: 100%;
+    height: 140px;
+    border-radius: 50%;
+}
+/* .radio1{
+    width: 120px;
+    height: 120px;
+    margin-top: 30px;
+    margin: 10px;
+    border: 1px solid red;
+    border-radius: 50%;
+} */
+
+/* =====================footer==================== */
+
+.footer{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-area: 6;
+    gap: 10px;
+    /* border: 1px solid red; */
+}
+
+.footer>div{
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+.top{
+    font-size: 12px;
+    margin: 7px;
+}
+.top-p{
+    font-size: 15px;
+    margin: 7px;
+    cursor: pointer;
+}
+
+.footer2{
+    width: 100%;
+    height: 50px;
+    /* border: 1px solid red; */
+    margin-top: 50px;
+}
+.footerend{
+    /* margin-top: 50px; */
+    padding: 5px;
+    margin: 5px;
+    text-decoration: none;
+    color: black;
+}
+.i{
+    padding: 5px;
+    margin: 5px;
+    font-size: 30px;
+    gap: 10px;
+    margin-left: 50%;
+}
